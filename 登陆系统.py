@@ -9,7 +9,7 @@ while True:
         print('您输入的用户名不存在，请重新输入')
         continue
 i=0
-while i<3:
+while i<5:
     password = input('请输入您的密码：')
     if database[name] == password:
         print('欢迎您，%s'%(name))
@@ -19,7 +19,7 @@ while i<3:
         continue
     else:
         i=i+1;
-        k=3-i;
+        k=5-i;
         print('您输入的密码不正确，还有%d次输入机会'%(k))
 else:
     print("您的账户已锁定，无法继续输入")
