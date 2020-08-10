@@ -23,4 +23,4 @@ while i<5:
         print('您输入的密码不正确，还有%d次输入机会'%(k))
 else:
     print("您的账户已锁定，无法继续输入")
-input('Press Any Key')
+
