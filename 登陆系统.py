@@ -1,4 +1,4 @@
-database = {'a': '1', 'b': '2','c':'3','d':'4'}
+database = {'a': '1', 'b': '2','c':'3','d':'4','e':'5'}
 
 print('登陆')
 while True:
@@ -15,7 +15,7 @@ while i<3:
         print('欢迎您，%s'%(name))
         break
     elif password=="":
-        print('密码不能为空，请重新输入')
+        print('密码不能为空，请重新输入密码')
         continue
     else:
         i=i+1;
